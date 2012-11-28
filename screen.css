@@ -1,0 +1,72 @@
+/* CSS Document */
+
+body {
+	background-image: url(images/bg_1px.gif);
+	background-repeat: repeat-x;
+	background-color: #000000;
+	font-family: Geneva, Helvetica, Arial, sans-serif;
+	}
+
+#wrap {
+	width: 600px;
+	border-right: 4px solid #333333;
+	border-bottom: 5px solid #000000;
+	border-top: 1px solid #333333;
+	border-left: 1px solid #000000;
+	margin: auto;
+	background-color: #FFFFFF;
+	padding: 30px;
+	}
+
+#portrait {
+	width: 180px;
+	float: left;
+	text-align: left;
+	}
+
+#portrait img{
+	border: 1px solid #333333;
+	}
+
+#portrait p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin: 30px 30px 0 0;
+	}
+
+#contact_top {
+	width: 660px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 0 0 5px 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: right;
+	color: #FFFFFF;
+	}
+
+#contact_bottom {
+	width: 660px;
+	margin: auto;
+	padding: 5px 0 0 0;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: right;
+	color: #ffffff;
+	}
+
+#contact_bottom a{ color: #FFFFFF; text-decoration: none; }
+#contact_bottom a:hover { text-decoration: underline; }
+
+#content { font-size: 12px; float: right; width: 420px;}
+#content h2 { font-size: 24px; font-family: Georgia, "Times New Roman", Times, serif; margin: 0;}
+#content h3 { font-size: 10px; text-transform: uppercase; border-bottom: 1px solid #666666; padding-bottom: 2px; font-weight: normal; margin: 30px 0 10px 0;}
+#content a { color: #333333;}
+#content ul li {list-style-type: square; margin: 5px 0;}
+
+.testimonial { width: 190px; background-color: #F8D98C; float: right; font-size: 12px;}
+.testimonial p { padding: 10px; margin: 0;}
+.client-testimonial { font-weight: bold; }
+.citation { font-size: 10px; margin: 10px 0 0 0;}
+.section {}
+
