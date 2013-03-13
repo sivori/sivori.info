@@ -1,20 +1,20 @@
 /* CSS Document */
 
 body {
-	background-image: url(images/bg_1px.gif);
+	
 	background-repeat: repeat-x;
-	background-color: #000000;
-	font-family: Geneva, Helvetica, Arial, sans-serif;
+	font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif;
+        background-color: #eee;
 	}
 
 #wrap {
-	width: 600px;
+	width: 800px;
 	border-right: 4px solid #333333;
 	border-bottom: 5px solid #000000;
 	border-top: 1px solid #333333;
 	border-left: 1px solid #000000;
 	margin: auto;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	padding: 30px;
 	}
 
@@ -42,7 +42,6 @@ body {
 	font-size: 10px;
 	text-transform: uppercase;
 	text-align: right;
-	color: #FFFFFF;
 	}
 
 #contact_bottom {
@@ -52,13 +51,12 @@ body {
 	font-size: 9px;
 	text-transform: uppercase;
 	text-align: right;
-	color: #ffffff;
 	}
 
-#contact_bottom a{ color: #FFFFFF; text-decoration: none; }
+#contact_bottom a{ color: #000; text-decoration: none; }
 #contact_bottom a:hover { text-decoration: underline; }
 
-#content { font-size: 12px; float: right; width: 420px;}
+#content { float: right; width: 620px;}
 #content h2 { font-size: 24px; font-family: Georgia, "Times New Roman", Times, serif; margin: 0;}
 #content h3 { font-size: 10px; text-transform: uppercase; border-bottom: 1px solid #666666; padding-bottom: 2px; font-weight: normal; margin: 30px 0 10px 0;}
 #content a { color: #333333;}
